@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:; */
+    
+}
+
+header {
+    background-color: #40b062;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.vegetable-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.vegetable-item {
+    background-color: #d7dfe8;
+    border: 3px solid #149e85;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.vegetable-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.vegetable-item:hover {
+    background-color: #c2cfe0;
+}
+.fruits-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.fruits-item {
+    background-color: #d7dfe8;
+    border: 3px solid #149e85;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fruits-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.fruits-item:hover {
+    background-color: #c2cfe0;
+}
+footer {
+    background-color: #40b062;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.about-us{
+    background-color: #dbe6da;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+footer:hover {
+    background-color: #686565;
+}
